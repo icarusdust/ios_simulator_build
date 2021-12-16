@@ -14,6 +14,7 @@ workflows:
             - name: Install npm dependencies
               script: |
                 npm install
+                npm install --save react-native-permissions
             - name: Install CocoaPods dependencies
               script: |
                 cd ios && pod install
