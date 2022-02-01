@@ -26,6 +26,6 @@ workflows:
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
         publishing:
-           email: 
+            email: 
                recipients:
                  - nihal@nevercode.io
